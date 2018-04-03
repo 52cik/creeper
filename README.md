@@ -1,8 +1,8 @@
-# creeper
-
-<center>
+<p align="center">
   <img src="logo.jpg" alt="creeper">
-</center>
+</p>
+
+# creeper
 
 > 简单爬虫引擎 - 苦力怕
 

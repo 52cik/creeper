@@ -1,0 +1,35 @@
+{
+  "name": "@52cik/creeper",
+  "version": "0.1.0",
+  "description": "简单爬虫引擎 - 苦力怕",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/52cik/creeper.git"
+  },
+  "keywords": [
+    "crawler",
+    "node-crawler"
+  ],
+  "author": "楼教主 <fe.52cik@gmail.com> (http://www.52cik.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/52cik/creeper/issues"
+  },
+  "homepage": "https://github.com/52cik/creeper",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "got": "^8.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.10.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  }
+}

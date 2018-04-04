@@ -1,6 +1,6 @@
 {
   "name": "@52cik/creeper",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "简单爬虫引擎 - 苦力怕",
   "main": "index.js",
   "scripts": {

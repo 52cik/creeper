@@ -40,13 +40,14 @@ creeper.onExtractField = (field, data) => data.trim();
 // 爬取结果回调
 creeper.onResult = (page, data) => {
   console.log('===============================');
-  console.log(page.url);
-  console.log(data);
+  console.log('url:', page.url);
+  console.log('data:', data);
   console.log('===============================');
 };
 
 creeper.onExit = () => {
   console.timeEnd('爬取耗时');
+  // 爬取耗时: 2228.279ms - 2018-04-04 23:23:27
 };
 
 console.time('爬取耗时');
